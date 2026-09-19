@@ -1,0 +1,51 @@
+============================================
+ОТЧЁТ ПО ЛАБОРАТОРНОЙ РАБОТЕ №18
+Система контроля версий Git. Работа с GitHub
+
+
+ Тулина Анна
+
+Ссылка на репозиторий GitHub:
+https://github.com/anna-tulina383/GitTest2
+Задание 1 Создать второй репозиторий
+
+Выполнено. Создана папка ~/GitRepo2
+
+Выполнена команда: git init
+Задание 2 Связать с удалённым и закоммитить
+
+Выполнено. Репозиторий связан с GitHub
+Сделано 2 коммита
+
+Вывод команды pwd:
+/c/Users/anna/GitRepo2
+
+Вывод команды git status:
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Вывод команды git log:
+commit 0093db9533c5bf4fdab792bbf0d825b936138142 (HEAD -> main, origin/main)
+Author: Анна <anna@example.com>
+Date:   Sat Sep 12 22:26:01 2026 +0500
+
+    Добавлен файл hello.txt
+
+commit 20d1887ba22c8ed3efa6b634fccae0b60759480c
+Author: Анна <anna@example.com>
+Date:   Sat Sep 12 21:35:09 2026 +0500
+
+    Первый коммит во втором репозитории
+
+Вывод команды git remote -v:
+origin  https://github.com/anna-tulina383/GitTest2.git (fetch)
+origin  https://github.com/anna-tulina383/GitTest2.git (push)
+
+Вывод команды ls -a:
+./  ../  .git/  README.txt  hello.txt
+
+Задание 3. Отчёт загружен на платформу
+
+17:08 19.09.2026
